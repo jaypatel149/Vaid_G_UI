@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "open sans";
+}
+
+.nav {
+    height: 6rem;
+    width: 100vw;
+}
+
+h1 {
+    font: normal normal 600 48px/65px "Open Sans";
+    width: 100%;
+}
+
+h3 {
+    font: normal normal bold 36px/49px Open Sans;
+}
+
+h5.s-c {
+    font: normal normal bold 28px/38px "Open Sans";
+}
+
+.footer-nav-link p,
+p {
+    font: normal normal normal 18px/24px "Open Sans";
+}
+
+.review-words h5 {
+    font: normal normal 600 20px/27px "Open Sans";
+}
+
+.review {
+    font: normal normal normal 16px/22px "Open Sans";
+    color: #666666;
+}
+
+p.review {
+    font: normal normal normal 16px/24px "Open Sans";
+}
+
+.pro-card h5 {
+    font: normal normal bold 20px/24px "Open Sans";
+}
+
+.top-data p {
+    font: normal normal normal 16px/22px "Open Sans";
+    color: #514747;
+}
+
+.doctor-specs p {
+    color: #666666;
+}
+
+#language {
+    width: 70px;
+}
+
+.card-text .btn {
+    border: 1px solid #FFFFFF;
+    border-radius: 6px;
+    width: 133px;
+    height: 46px;
+    font: normal normal bold 14px/19px Open Sans;
+}
+
+.btn.s-c {
+    font: normal normal bold 14px/19px "Open Sans";
+}
+
+main {
+    width: 100vw;
+    overflow-x: hidden;
+}
+
+.nav-main {
+    background: linear-gradient(to bottom, #fff 95%, #e0e4e7);
+}
+
+.logo_side {
+    width: 40vw;
+}
+
+label {
+    font: normal normal 600 18px/24px "Open Sans";
+}
+
+.profile-btn {
+    font: normal normal 600 16px/28px "Open Sans";
+}
+
+.logo-line .logo {
+    display: flex;
+}
+
+.logo,
+.profile-pic {
+    height: 2.5rem;
+    width: auto;
+}
+
+.logo_side img,
+.profile-pic img {
+    height: 2.5rem;
+}
+
+.main-top-pic {
+    padding-top: 6rem;
+}
+
+.main-top-pic img {
+    width: 100%;
+    height: auto;
+    filter: brightness(.8);
+}
+
+.places {
+    height: 45px;
+}
+
+.search-input {
+    height: 100%;
+    width: 50rem;
+    background-color: #fff;
+}
+
+input {
+    font: normal normal normal 16px/22px Open Sans;
+    height: 100%;
+    width: 93%;
+    border: none;
+    padding: 1rem;
+    color: black;
+}
+
+.btn.place {
+    font: normal normal 600 16px/22px Open Sans;
+}
+
+input:focus {
+    outline: none;
+}
+
+svg {
+    height: 2rem;
+    color: #1A54B0;
+}
+
+.specs-data {
+    display: block;
+    font: normal normal bold 18px/24px "Open Sans";
+    color: #1A54B0;
+}
+
+.img-text {
+    width: 82rem;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+
+.services-cards {
+    width: 90vw;
+}
+
+.card-deck .card {
+    height: 20rem;
+}
+
+.btn-outline-light {
+    border: 2px solid;
+}
+
+.card1,
+.card2,
+.card3 {
+    width: 52%;
+}
+
+.card {
+    width: 100%;
+    text-align: center;
+    border-radius: 6px;
+    border: transparent;
+    background-color: transparent;
+}
+
+.card-title {
+    font: normal normal bold 28px "Open Sans";
+}
+
+.btn-link:hover,
+.btn-link:active,
+.btn-outline-light:hover,
+.btn-outline-light:active {
+    color: rgb(114, 114, 114);
+    border-bottom: 1px solid transparent;
+    text-decoration: none;
+}
+
+.btn-link {
+    font-weight: 400;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-outline-light {
+    color: white;
+    border-color: white;
+}
+
+.card-1 {
+    background-color: #A485BE;
+}
+
+.card-2 {
+    background-color: #89CCAB;
+}
+
+.card-3 {
+    background-color: #F79384;
+}
+
+.specs {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.specs_pic {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.pic {
+    width: 100%;
+    height: 90%;
+    display: block;
+}
+
+.specs_pic img {
+    width: 100%;
+    height: 100%;
+}
+
+h4 {
+    color: #1A54B0;
+    font: 700 18px;
+}
+
+.h-i-w-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    width: 85%;
+}
+
+.h-i-w-card {
+    width: 100%;
+}
+
+.h-i-w-card .card h4 {
+    color: black;
+    font: normal normal bold 20px/27px "Open Sans";
+}
+
+.h-i-w-card .card p {
+    font: normal normal normal 16px/24px "Open Sans";
+    color: #514747;
+}
+
+.h-i-w-card img {
+    height: 110px;
+}
+
+.profile-cards {
+    width: 100%;
+}
+
+.pro-card {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.top-pic {
+    margin: auto !important
+}
+
+.top-pic-imgs {
+    height: 9rem;
+    width: 9rem;
+}
+
+.top-pic-imgs .pro-img {
+    height: 100%;
+    width: 100%;
+}
+
+.heart {
+    display: block;
+    background-color: rgb(255, 255, 255);
+    padding: 2px;
+    height: 20px;
+    top: 10%;
+    right: -5%;
+    border-radius: 50%;
+}
+
+h5 {
+    font: normal normal bold 26px "Open Sans";
+    margin-bottom: 0;
+    padding-bottom: 0.5rem;
+}
+
+.dash {
+    padding: 0.5rem 0.5rem !important;
+    border: 0;
+    border-bottom: 2px dashed #ccc;
+}
+
+.stars svg {
+    height: 15px;
+    fill: #FFC437;
+}
+
+hr,
+.bottom-data {
+    display: block;
+    padding: 1rem .5rem !important;
+}
+
+.bottom-data p {
+    font: normal 16px/24px "Open Sans"
+}
+
+.wrapper {
+    width: 100%;
+    height: 40rem;
+}
+
+.rating {
+    display: grid;
+    grid-template-columns: 35% 65%;
+    width: 100%;
+}
+
+.carousal-img {
+    width: 100%;
+}
+
+.review-words {
+    width: 100%;
+}
+
+.card1 {
+    top: 0;
+    left: 0%;
+    z-index: 1;
+    transform: scale(.7);
+}
+
+.card2 {
+    z-index: 2;
+    position: absolute;
+    right: 52%;
+    transform: translateX(50%);
+}
+
+.card3 {
+    top: 0;
+    right: 0%;
+    z-index: 1;
+    transform: scale(.7);
+}
+
+.carousal-indicators {
+    height: 5%;
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    bottom: -2%;
+}
+
+.c-btn {
+    content: " ";
+    cursor: pointer;
+    margin: 0 5px;
+    height: 10px;
+    width: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    background-color: #CECECE;
+}
+
+.active {
+    background-color: #1A54B0;
+}
+
+.rating-and-review {
+    width: 90vw;
+}
+
+.review-words {
+    font: normal normal normal 16px/22px "Open Sans";
+    width: 80%;
+}
+
+#left,
+#right {
+    height: 15px;
+    width: 15px;
+    top: 1.5rem;
+    z-index: 7778;
+    color: #000000;
+}
+
+#left-btn,
+#right-btn {
+    height: 45px;
+    width: 45px;
+    background-color: #F0F0F0;
+    border-radius: 50%;
+    z-index: 1000;
+    transform: translatey(12.5rem);
+}
+
+.arrow {
+    color: #000000;
+}
+
+#left,
+#right {
+    height: 15px;
+    width: 15px;
+    top: 1.5rem;
+    z-index: 7778;
+    color: #000000;
+}
+
+#left {
+    left: 1.7rem;
+}
+
+#right {
+    right: -1.7rem;
+}
+
+#right-btn {
+    right: 10%;
+}
+
+#left-btn {
+    left: 10%;
+}
+
+.cities {
+    background-color: #F8F8F8;
+}
+
+.availablities {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.availablities a {
+    color: #666666 !important;
+}
+
+.availabilities ul {
+    width: 25%;
+    display: block;
+    background-color: black;
+}
+
+li {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    font: normal normal normal 16px/22px Open Sans;
+}
+
+li img {
+    height: 16px;
+    width: 16px;
+}
+
+.redirects {
+    width: 80%;
+    height: auto;
+}
+
+.footer {
+    width: 100%;
+    color: #F0F0F0;
+    font: normal normal normal 16px/30px "Open Sans";
+    display: grid;
+    background-color: #212121;
+}
+
+.logo-line {
+    display: flex;
+    width: 80%;
+}
+
+.footer-logo {
+    left: 0;
+}
+
+.footer-nav-link {
+    display: flex;
+}
+
+.sm-icon {
+    height: 3.4rem;
+    width: 3.4rem;
+    background-color: hsla(0, 0%, 100%, 0.80);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.fa {
+    font-size: 2rem;
+    color: #000000;
+}
+
+.mobile-redirects {
+    width: 23rem;
+    height: 3.4rem;
+}
+
+.mobile-redirects img {
+    height: 3.4rem;
+}
+
+.footer-copyright {
+    border-top: 1px solid rgba(255, 255, 255, 0.21);
+    width: 100%;
+    color: white;
+}
+
+.redirects {
+    display: flex;
+}
+
+.h-i-w-card-img {
+    width: 20px;
+    height: 20px;
+    top: 34%;
+    left: 50%;
+    filter: brightness(10%);
+    opacity: 50%;
+}
+
+.myarrow {
+    top: 32%;
+    width: 20rem;
+}
+
+.left-arrow {
+    left: 22%;
+}
+
+.right-arrow {
+    right: 25%;
+}
+
+#arrow-link {
+    display: block;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+}

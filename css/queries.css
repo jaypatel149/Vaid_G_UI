@@ -1,0 +1,225 @@
+/* ******************************
+ BELOW 1200px (tablet)
+ ********************************* */
+
+@media (max-width: 75em) {
+    .myarrow {
+        width: 14rem;
+    }
+    #left-arrow {
+        left: 7%;
+    }
+    #right-arrow {
+        right: 7%;
+    }
+}
+
+
+/* ******************************
+ BELOW 944px (tablet)
+ ********************************* */
+
+@media (max-width: 59em) {
+    .img-text {
+        width: 56rem;
+    }
+    h1 {
+        font: normal normal 600 32px/30px "Open Sans";
+    }
+    #left-arrow {
+        left: 8%;
+    }
+    #right-arrow {
+        right: 8%;
+    }
+    .pro-card h5 {
+        font: normal normal bold 16px/24px "Open Sans";
+    }
+    .top-data p {
+        font: normal normal normal 14px/22px "Open Sans";
+    }
+    .profile-cards {
+        width: 100%;
+    }
+    .bottom-data p {
+        font: normal 10px/16px "Open Sans";
+    }
+    .rating {
+        grid-template-columns: 1fr;
+    }
+    .myarrow {
+        display: none !important;
+    }
+    .logo-line {
+        display: block;
+    }
+    .footer-logo {
+        position: relative !important;
+        display: flex;
+        justify-content: center;
+    }
+    .footer-nav-link {
+        justify-content: space-around;
+        margin-top: 10px;
+    }
+}
+
+
+/* ******************************
+ BELOW 704px (smaller tablet)
+ ********************************* */
+
+@media (max-width: 44em) {
+    .specs {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .specs-pic img {
+        margin: 0 auto;
+    }
+    .pro-card {
+        width: 50%;
+    }
+    #left-btn {
+        left: 4%;
+    }
+    #right-btn {
+        right: 4%;
+    }
+    .s-c {
+        margin: 0 auto;
+    }
+    label.profile {
+        font-weight: 500 !important;
+    }
+    .h-i-w-cards {
+        grid-template-columns: 1fr;
+    }
+    .availablities {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0;
+    }
+    .places {
+        height: 4rem;
+        width: 80%;
+    }
+    .logo-line {
+        display: block;
+    }
+    .footer-logo {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 1.5rem;
+    }
+    .footer-nav {
+        justify-content: space-around;
+    }
+}
+
+
+/* ******************************
+ BELOW 544px (smaller tablet)
+ ********************************* */
+
+@media only screen and (max-width: 34em) {
+    .img-text {
+        width: 80%;
+    }
+    h1 {
+        font: normal 600 26px/24px "Open Sans";
+    }
+    h3 {
+        font: normal normal bold 28px/49px Open Sans;
+    }
+    .top-pic-imgs {
+        height: 7rem;
+        width: 7rem;
+    }
+    .top-pic-imgs .pro-img {
+        height: 85%;
+        width: 95%;
+    }
+    .top-data p {
+        font: normal normal normal 9px/10px "Open Sans";
+    }
+    .pro-card h5 {
+        font: normal normal bold 14px/18px "Open Sans";
+    }
+    #left-btn {
+        left: 2.5%;
+    }
+    #right-btn {
+        right: 2.5%;
+    }
+    /*   .s-c {
+    width: 80%;
+  } */
+    .mobile-redirects,
+    .social-media-redirects {
+        width: 100%;
+        justify-content: center !important;
+    }
+    .logo {
+        display: flex;
+        justify-content: center !important;
+    }
+    .logo img {
+        display: block;
+    }
+    .dropdown label {
+        display: none;
+    }
+    .footer-nav-link {
+        display: block;
+        margin: 0 auto;
+    }
+    .footer-nav-link p {
+        display: flex;
+        justify-content: center;
+    }
+    .redirects {
+        display: block;
+    }
+}
+
+
+/* ******************************
+ BELOW 425px (smaller tablet)
+ ********************************* */
+
+@media only screen and (max-width: 26em) {
+    h1 {
+        font: normal 600 20px/20px "Open Sans";
+    }
+    #language {
+        width: 70px;
+    }
+    .btn {
+        font: normal normal bold 12px/19px "Open Sans";
+    }
+    .profile-btn {
+        font: normal normal 600 12px/28px "Open Sans";
+    }
+    .btn.place {
+        width: 100px;
+        height: 42px;
+        font: normal normal 600 14px/16px "Open Sans";
+    }
+    #left-btn {
+        left: 1.5%;
+    }
+    #right-btn {
+        right: 1.5%;
+    }
+}
+
+
+/* ******************************
+ BELOW 375px (smaller tablet)
+ ********************************* */
+
+@media screen and (max-width: 23em) {
+    h1 {
+        font-size: 1.8rem;
+    }
+}

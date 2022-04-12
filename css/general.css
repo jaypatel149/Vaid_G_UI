@@ -1,0 +1,53 @@
+body::-webkit-scrollbar,
+main::-webkit-scrollbar,
+.main-header::-webkit-scrollbar {
+    display: none;
+}
+
+body,
+main,
+.main-header {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+html {
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+button {
+    height: 3.7rem;
+}
+
+ul,
+a {
+    list-style: none;
+    text-decoration: none;
+}
+
+.open>.dropdown-menu {
+    display: none;
+}
+
+a#footer-nav-link-id {
+    color: white;
+}
+
+a#footer-nav-link-id:link,
+a#footer-nav-link-id:active {
+    color: white;
+}
+
+a#footer-nav-link-id:hover {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.social-media-redirects a:hover {
+    text-decoration: none;
+}
